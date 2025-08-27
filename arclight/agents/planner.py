@@ -7,11 +7,11 @@ Each step may call a tool: [web_search | rag | python | github]. Keep steps conc
 
 
 def draft_plan(llm, goal: str) -> list[dict]:
-    plan_prompt = (
+    """plan_prompt = (
         PLANNER_PROMPT
         + f"\nGoal: {goal}\nReturn JSON list of steps with 'action' and 'notes'."
-    )
-    resp = llm.invoke(plan_prompt)
+    )"""
+    # resp = llm.invoke(plan_prompt)
     # naive parse for demo mode: produce a simple default plan if JSON isn't returned
     default = [
         {"action": "web_search", "notes": "Find 2-3 credible sources."},
