@@ -2,6 +2,7 @@ from __future__ import annotations
 from arclight.tools.web_search import web_search
 from arclight.chains.rag_chain import answer_with_context
 
+
 def execute_step(llm, step: dict, question: str, log: list[dict]) -> None:
     action = step.get("action", "")
     if action == "web_search":

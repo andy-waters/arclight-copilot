@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+
 def review_and_finalize(llm, question: str, log: list[dict]) -> dict:
     context_bits = []
     for entry in log:
