@@ -1,0 +1,5 @@
+- name: Basic agent flow
+  input: "Summarize agentic workflows with citations"
+  checks:
+    - has_final: true
+    - has_plan_steps: >=3
