@@ -52,8 +52,12 @@ pip install -r requirements.txt
 cp .env.example .env
 # Fill Azure settings if you want live LLM and RAG
 ```
+### 3. Install application:
+   ```bash
+   pip install -e .
+   ```
 
-### 3) Run
+### 4) Run
 ```bash
 streamlit run app/ui_streamlit.py
 ```
