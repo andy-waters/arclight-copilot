@@ -72,7 +72,7 @@ Copy `.env.example` and fill as needed.
 
 **Required for live LLM**  
 - `AZURE_OPENAI_ENDPOINT`
-- `AZURE_OPENAI_KEY`
+- `AZURE_OPENAI_API_KEY`
 - `AZURE_OPENAI_DEPLOYMENT`  (e.g., gpt-4o-mini)
 - `AZURE_OPENAI_API_VERSION` (e.g., 2024-06-01)
 
